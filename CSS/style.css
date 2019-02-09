@@ -1,0 +1,98 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.menu{
+    background-color:white;
+    overflow: hidden;
+    border: 2px solid red;
+}
+/* Itens do Menu */
+.item-menu{
+    float: right;    
+    text-decoration: none;
+    list-style: none;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+/* Links do Menu */
+.item-menu a{
+    float: left; 
+    display: block;
+    padding: 15px 0 15px 30px;
+    z-index: 1;
+}
+/* Logo do Menu */
+.logo-menu{
+    float: left;
+    padding: 15px 0 15px 30px;
+    z-index: 0;
+}
+
+.clear {
+    clear: both;
+}
+/* Icone Menu Responsivel*/
+.fa .fa-bars{
+    color: black;
+}
+/* Imagem Carousel */
+.img-fluid{
+    display: flex;
+    width: 100%;
+    padding: 0;
+    margin-top: 0;
+}
+/* Menu Fixed */
+.sticky{
+    position: fixed;
+    top:0;
+    width: 100%;
+}
+/*Esconder o icone até o Canvas atender os parametros*/
+.icon{
+    display: none;
+    border: 1px solid red;
+}
+
+@media screen and (max-width: 640px){
+    .menu a{
+        display: none;
+    }
+   .icon{
+        float: right;
+        padding: 20px;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 640px){
+    .responsive{
+        background: white;
+    }
+
+    .responsive .menu a{
+        display: block;
+    }
+
+    .responsive .icon{
+        color: black;
+        position: relative;
+        float: right;
+    }
+    .responsive .logo-menu{
+        float: left;
+        padding: 15px 0 15px 30px;
+        z-index: 0;
+    }
+    .responsive .item-menu{
+        background: white;
+        width: 100%;
+    }
+}
+
+
