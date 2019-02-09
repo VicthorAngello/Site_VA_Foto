@@ -1,11 +1,11 @@
-//Verifica Tamanho do Canvas
+// //Verifica Tamanho do Canvas
 
-function ajusteCanvas (){
-    var largura = window.innerWidth
-    var altura = window.innerHeight
-    console.log(largura, altura)
-}
-ajusteCanvas()
+// function ajusteCanvas (){
+//     var largura = window.innerWidth
+//     var altura = window.innerHeight
+//     console.log(largura, altura)
+// }
+// ajusteCanvas()
 
 
 // Função Menu Sticky

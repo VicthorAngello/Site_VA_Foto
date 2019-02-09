@@ -6,6 +6,7 @@ body{
 .menu{
     background-color:white;
     overflow: hidden;
+    z-index: 999999999;
 }
 /* Itens do Menu */
 .item-menu{
@@ -55,6 +56,13 @@ body{
 /*Esconder o icone até o Canvas atender os parametros*/
 .icon{
     display: none;
+}
+
+/* Div do Paragrafo*/
+.div-paragr p{
+    margin-top: auto;
+	margin-bottom: auto;
+	text-align: center;
 }
 
 @media screen and (max-width: 640px){
