@@ -27,10 +27,9 @@ function menuResponsivo() {
     
     if (navbar.className === "menu"){
         navbar.className ='responsive'
-        window.onscroll=function(){myFunction()}
     }else{
         navbar.className ='menu'
     }
 }
 
-console.log(navbar.className)
+console.log(navbar.id)
