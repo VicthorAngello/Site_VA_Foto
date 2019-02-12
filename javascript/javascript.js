@@ -7,6 +7,21 @@
 // }
 // ajusteCanvas()
 
+//Toggle add e remover a classe responsiva
+
+class Menu{
+    constructor(){
+        this.navbar = document.getElementById('myMenu')
+    }
+    respondivo(){
+        if(this.navbar.className === 'menu'){
+            navbar.className = 'responsive'
+        } else{
+            navbar.className = 'menu'
+        }
+    }
+}
+let menu = new Menu(navbar)
 
 // Função Menu Sticky
 window.onscroll=function(){myFunction()}
@@ -21,15 +36,3 @@ function myFunction(){
         navbar.classList.remove('sticky')
     }
 }
-
-//Toggle add e remover a classe responsiva
-function menuResponsivo() {
-    
-    if (navbar.className === "menu"){
-        navbar.className ='responsive'
-    }else{
-        navbar.className ='menu'
-    }
-}
-
-console.log(navbar.id)
